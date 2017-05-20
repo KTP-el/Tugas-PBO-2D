@@ -6,14 +6,14 @@
 package El_KTP;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 /**
  *
  * @author nurudinhasbullah
  */
 public class penduduk {
-   
-    public static void main(String[] args) {
-               ArrayList<HashMap<String, data>> data1 = new ArrayList<>();
+   public static void main(String[] args) {
+        ArrayList<HashMap<String, data>> data1 = new ArrayList<>();
         //DataPenduduk RT01
         HashMap<String, data> rt1 = new HashMap<>();
         rt1.put("201611", new data("Adi      ", "Frozenland", "16/03/1993", "Laki-Laki", "AB", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Guru     ", "WNI", "Seumur Hidup"));
@@ -34,21 +34,22 @@ public class penduduk {
         rt2.put("202615", new El_KTP.data("Paimo    ", "Frozenland", "15/02/1989", "Laki-Laki", "AB", "RT02", "Ds. Konoha", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt2);
 
-        System.out.println("Data Penduduk Desa Konoha RT 01 :");
-        System.out.println(data1.get(0).get("201611").nama + " " + data1.get(0).get("201611").tmpL + " " + data1.get(0).get("201611").tglL + " " + data1.get(0).get("201611").jenKel + " " + data1.get(0).get("201611").golDar + " " + data1.get(0).get("201611").rt + " " + data1.get(0).get("201611").desa + " " + data1.get(0).get("201611").agama + " " + data1.get(0).get("201611").statusK + " " + data1.get(0).get("201611").kerja + " " + data1.get(0).get("201611").negara + " " + data1.get(0).get("201611").msLaku);
-        System.out.println(data1.get(0).get("201612").nama + " " + data1.get(0).get("201612").tmpL + " " + data1.get(0).get("201612").tglL + " " + data1.get(0).get("201612").jenKel + " " + data1.get(0).get("201612").golDar + " " + data1.get(0).get("201612").rt + " " + data1.get(0).get("201612").desa + " " + data1.get(0).get("201612").agama + " " + data1.get(0).get("201612").statusK + " " + data1.get(0).get("201612").kerja + " " + data1.get(0).get("201612").negara + " " + data1.get(0).get("201612").msLaku);
-        System.out.println(data1.get(0).get("201613").nama + " " + data1.get(0).get("201613").tmpL + " " + data1.get(0).get("201613").tglL + " " + data1.get(0).get("201613").jenKel + " " + data1.get(0).get("201613").golDar + " " + data1.get(0).get("201613").rt + " " + data1.get(0).get("201613").desa + " " + data1.get(0).get("201613").agama + " " + data1.get(0).get("201613").statusK + " " + data1.get(0).get("201613").kerja + " " + data1.get(0).get("201613").negara + " " + data1.get(0).get("201613").msLaku);
-        System.out.println(data1.get(0).get("201614").nama + " " + data1.get(0).get("201614").tmpL + " " + data1.get(0).get("201614").tglL + " " + data1.get(0).get("201614").jenKel + " " + data1.get(0).get("201614").golDar + " " + data1.get(0).get("201614").rt + " " + data1.get(0).get("201614").desa + " " + data1.get(0).get("201614").agama + " " + data1.get(0).get("201614").statusK + " " + data1.get(0).get("201614").kerja + " " + data1.get(0).get("201614").negara + " " + data1.get(0).get("201614").msLaku);
-        System.out.println(data1.get(0).get("201615").nama + " " + data1.get(0).get("201615").tmpL + " " + data1.get(0).get("201615").tglL + " " + data1.get(0).get("201615").jenKel + " " + data1.get(0).get("201615").golDar + " " + data1.get(0).get("201615").rt + " " + data1.get(0).get("201615").desa + " " + data1.get(0).get("201615").agama + " " + data1.get(0).get("201615").statusK + " " + data1.get(0).get("201615").kerja + " " + data1.get(0).get("201615").negara + " " + data1.get(0).get("201615").msLaku);
+        //Data Penduduk RT03
+        HashMap<String, El_KTP.data> rt3 = new HashMap<>();
+        rt3.put("203616", new data("Pardi S  ", "Frozenland", "16/08/1997", "Laki-Laki", "B ", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        rt3.put("203617", new data("Susi     ", "Frozenland", "12/02/1992", "Perempuan", "O ", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
+        rt3.put("203618", new data("Purwati  ", "Frozenland", "18/01/1996", "Perempuan", "A ", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        rt3.put("203619", new data("Megawati ", "Frozenland", "14/05/1998", "Perempuan", "B ", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        rt3.put("203620", new data("Astuti   ", "Frozenland", "15/01/1993", "Perempuan", "O ", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
+        data1.add(rt3);
 
-        System.out.println("Data Penduduk Desa Konoha RT 02 :");
-        System.out.println(data1.get(1).get("202611").nama + " " + data1.get(1).get("202611").tmpL + " " + data1.get(1).get("202611").tglL + " " + data1.get(1).get("202611").jenKel + " " + data1.get(1).get("202611").golDar + " " + data1.get(1).get("202611").rt + " " + data1.get(1).get("202611").desa + " " + data1.get(1).get("202611").agama + " " + data1.get(1).get("202611").statusK + " " + data1.get(1).get("202611").kerja + " " + data1.get(1).get("202611").negara + " " + data1.get(1).get("202611").msLaku);
-        System.out.println(data1.get(1).get("202612").nama + " " + data1.get(1).get("202612").tmpL + " " + data1.get(1).get("202612").tglL + " " + data1.get(1).get("202612").jenKel + " " + data1.get(1).get("202612").golDar + " " + data1.get(1).get("202612").rt + " " + data1.get(1).get("202612").desa + " " + data1.get(1).get("202612").agama + " " + data1.get(1).get("202612").statusK + " " + data1.get(1).get("202612").kerja + " " + data1.get(1).get("202612").negara + " " + data1.get(1).get("202612").msLaku);
-        System.out.println(data1.get(1).get("202613").nama + " " + data1.get(1).get("202613").tmpL + " " + data1.get(1).get("202613").tglL + " " + data1.get(1).get("202613").jenKel + " " + data1.get(1).get("202613").golDar + " " + data1.get(1).get("202613").rt + " " + data1.get(1).get("202613").desa + " " + data1.get(1).get("202613").agama + " " + data1.get(1).get("202613").statusK + " " + data1.get(1).get("202613").kerja + " " + data1.get(1).get("202613").negara + " " + data1.get(1).get("202613").msLaku);
-        System.out.println(data1.get(1).get("202614").nama + " " + data1.get(1).get("202614").tmpL + " " + data1.get(1).get("202614").tglL + " " + data1.get(1).get("202614").jenKel + " " + data1.get(1).get("202614").golDar + " " + data1.get(1).get("202614").rt + " " + data1.get(1).get("202614").desa + " " + data1.get(1).get("202614").agama + " " + data1.get(1).get("202614").statusK + " " + data1.get(1).get("202614").kerja + " " + data1.get(1).get("202614").negara + " " + data1.get(1).get("202614").msLaku);
-        System.out.println(data1.get(1).get("202615").nama + " " + data1.get(1).get("202615").tmpL + " " + data1.get(1).get("202615").tglL + " " + data1.get(1).get("202615").jenKel + " " + data1.get(1).get("202615").golDar + " " + data1.get(1).get("202615").rt + " " + data1.get(1).get("202615").desa + " " + data1.get(1).get("202615").agama + " " + data1.get(1).get("202615").statusK + " " + data1.get(1).get("202615").kerja + " " + data1.get(1).get("202615").negara + " " + data1.get(1).get("202615").msLaku);
-
-    }
+        //Data Penduduk RT04
+        HashMap<String, El_KTP.data> rt4 = new HashMap<>();
+        rt4.put("204616", new El_KTP.data("Sumanto  ", "Frozenland", "26/08/1998", "Laki-Laki", "B ", "RT02", "Ds. Konoha", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        rt4.put("204617", new El_KTP.data("Mulyaning", "Frozenland", "27/01/1996", "Perempuan", "O ", "RT02", "Ds. Konoha", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
+        rt4.put("204618", new El_KTP.data("Mesmi    ", "Frozenland", "12/09/1995", "Perempuan", "A ", "RT02", "Ds. Konoha", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
+        rt4.put("204619", new El_KTP.data("Yuli     ", "Frozenland", "17/02/1997", "Perempuan", "B ", "RT02", "Ds. Konoha", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
+        rt4.put("204620", new El_KTP.data("Sisi     ", "Frozenland", "11/05/1992", "Perempuan", "O ", "RT02", "Ds. Konoha", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
+        data1.add(rt4);
 }
- 
 }
