@@ -14,6 +14,7 @@ import java.util.HashMap;
 public class penduduk {
    public static void main(String[] args) {
         ArrayList<HashMap<String, data>> data1 = new ArrayList<>();
+        
         //DataPenduduk RT01
         HashMap<String, data> rt1 = new HashMap<>();
         rt1.put("201611", new data("Adi      ", "Frozenland", "16/03/1993", "Laki-Laki", "AB", "RT01", "Ds. Konoha", "Islam", "Belum Kawin", "Guru     ", "WNI", "Seumur Hidup"));
@@ -51,5 +52,5 @@ public class penduduk {
         rt4.put("204619", new El_KTP.data("Yuli     ", "Frozenland", "17/02/1997", "Perempuan", "B ", "RT02", "Ds. Konoha", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
         rt4.put("204620", new El_KTP.data("Sisi     ", "Frozenland", "11/05/1992", "Perempuan", "O ", "RT02", "Ds. Konoha", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt4);
-}
+    }
 }
