@@ -53,6 +53,18 @@ public class penduduk {
         rt4.put("204620", new El_KTP.data("Sisi     ", "Frozenland", "11/05/1992", "Perempuan", "O ", "RT02", "Ds. Konoha", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt4);
         
+        // assalamualaikum pak galih,
+        // maaf pak, disini ada kesalahan pak. untuk Data Penduduk RT 01 - RT 04 itu sebenarnya kerjaan cicilia lidya rani
+        // tapi teman saya tadi fitria sifatul ulya yang unamenya WIN 8.1 kurang mengerti pak,
+        // fitria tadi megira kalau kodingan dia sama seperti kodingan cicil
+        // jadi kodingannya cicil dihapus sama dia pak, dan diganti kodingannya dia,
+        // bapak bisa lihat di https://github.com/nurudin72/Tugas-PBO-2D/commits/master kalau cicilia sudah mengerjakan
+        // terus kerjaannya dihapus secara tidak sengaja pak, karena tadi ada kesalahpahaman.
+        // saya mau menghubungi yang teman-teman yang lain, tapi sepertinya mereka sudah tidur
+        // maka dari itu saya post ulang untuk kodingannya cicilia pak..
+        // saya mohon maaf harus bilang ke bapak lewat sini, karena saya tidak tau harus menghubungi bapak lewat mana.
+        // mohon pengertiannya pak. wassalamualaikum..
+        
        //Data Penduduk RT11 
         HashMap<String, data> rt11 = new HashMap<>();
         rt11.put("201611", new data("Slamet   ", "Frozenland", "16/03/1993", "Laki-Laki", "AB", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Guru     ", "WNI", "Seumur Hidup"));
