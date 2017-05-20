@@ -15,7 +15,7 @@ public class penduduk {
    public static void main(String[] args) {
         ArrayList<HashMap<String, data>> data1 = new ArrayList<>();
         
-       //Data Penduduk RT01
+       //Data Penduduk RT01 
         HashMap<String, data> rt11 = new HashMap<>();
         rt11.put("201611", new data("Slamet   ", "Frozenland", "16/03/1993", "Laki-Laki", "AB", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Guru     ", "WNI", "Seumur Hidup"));
         rt11.put("201612", new data("Pandu    ", "Frozenland", "11/11/1993", "Laki-Laki", "B ", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
