@@ -53,7 +53,7 @@ public class penduduk {
         rt4.put("204620", new El_KTP.data("Sisi     ", "Frozenland", "11/05/1992", "Perempuan", "O ", "RT02", "Ds. Konoha", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt4);
         
-       //Data Penduduk RT01 
+       //Data Penduduk RT11 
         HashMap<String, data> rt11 = new HashMap<>();
         rt11.put("201611", new data("Slamet   ", "Frozenland", "16/03/1993", "Laki-Laki", "AB", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Guru     ", "WNI", "Seumur Hidup"));
         rt11.put("201612", new data("Pandu    ", "Frozenland", "11/11/1993", "Laki-Laki", "B ", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
@@ -63,7 +63,7 @@ public class penduduk {
         rt11.put("201615", new data("Bima     ", "Frozenland", "19/04/1994", "Laki-Laki", "AB", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt11);
          
-        //Data Penduduk RT02 
+        //Data Penduduk RT22 
         HashMap<String, El_KTP.data> rt22 = new HashMap<>();
         rt22.put("202611", new El_KTP.data("Misran   ", "Frozenland", "16/03/1998", "Laki-Laki", "AB", "RT02", "Ds. Mayumi", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
         rt22.put("202612", new El_KTP.data("Parmon   ", "Frozenland", "12/04/1991", "Laki-Laki", "B ", "RT02", "Ds. Mayumi", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
@@ -73,7 +73,7 @@ public class penduduk {
         rt22.put("202615", new El_KTP.data("Marijan  ", "Frozenland", "15/02/1989", "Laki-Laki", "AB", "RT02", "Ds. Mayumi", "Islam", "Kawin      ", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt22);
 
-        //Data Penduduk RT03
+        //Data Penduduk RT33
         HashMap<String, El_KTP.data> rt33 = new HashMap<>();
         rt33.put("203616", new data("Juadi    ", "Frozenland", "16/08/1997", "Laki-Laki", "B ", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
         rt33.put("203617", new data("Irma     ", "Frozenland", "12/02/1992", "Perempuan", "O ", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
@@ -82,7 +82,7 @@ public class penduduk {
         rt33.put("203620", new data("Wahyu    ", "Frozenland", "15/01/1993", "Perempuan", "O ", "RT01", "Ds. Mayumi", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
         data1.add(rt33);
 
-        //Data Penduduk RT04
+        //Data Penduduk RT44
         HashMap<String, El_KTP.data> rt44 = new HashMap<>();
         rt44.put("204616", new El_KTP.data("Tarno    ", "Frozenland", "26/08/1998", "Laki-Laki", "B ", "RT02", "Ds. Mayumi", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
         rt44.put("204617", new El_KTP.data("Sumi     ", "Frozenland", "27/01/1996", "Perempuan", "O ", "RT02", "Ds. Mayumi", "Islam", "Belum Kawin", "Swasta   ", "WNI", "Seumur Hidup"));
